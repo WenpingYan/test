@@ -1,0 +1,17 @@
+1 	初始化 			git init
+2 	添加到缓存区  	git add file
+3 	提交			git commit -m '备注'
+4 	查看仓库状态	git status
+5 	查看仓库日志	git log
+6	返回上个版本	git reset --hard -HEAD^	 (HEAD指当前版本)
+7	返回上上个版本	git reset --hard -HEAD^^
+8	返回上100个版本	git reset --hard -HEAD~100
+9	查看命令历史	git reflog	
+10	修改文件后恢复	git checkout -- file
+11	修改后添加的缓存区恢复(2步)	1> git reset HEAD file,  2>git checkout -- file
+12	删除			git rm file
+
+
+远程仓库
+
+生成秘钥	ssh-keygen -t rsa -C "youremail@example.com"
